@@ -3,6 +3,7 @@
 const mongoose = require('mongoose')
 const { db: { host, name, port } } = require('../configs/config.mongodb')
 const connectString = `mongodb://${host}:${port}/${name}`
+console.log(connectString);
 class Database {
     constructor() {
         this.connect()
@@ -17,7 +18,7 @@ class Database {
 
         mongoose.connect(connectString, {
             maxPoolSize: 50,
-        }).then(_ => console.log(`Connected Mongo Success PRO`))
+        }).then(_ => console.log(`Connected Mongo Success`))
             .catch(err => console.log(`Error Connect`))
     }
 

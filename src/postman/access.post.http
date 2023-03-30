@@ -10,3 +10,13 @@ x-api-key: 4aeae09cc528705d06f0aed5f266f6af7f15b305fc85d610c4f95804dcdb7a388ddee
     "email": "shopnia15@gmail.com",
     "password": "abc123"
 }
+
+###signin
+POST {{url_dev}}/shop/login
+Content-Type: application/json
+x-api-key: 4aeae09cc528705d06f0aed5f266f6af7f15b305fc85d610c4f95804dcdb7a388ddeef46b7db9db40c1577b483db553283fad2854593a69d90dc8874cb7ac74c
+
+{
+    "email": "shopnia15@gmail.com",
+    "password": "abc123"
+}

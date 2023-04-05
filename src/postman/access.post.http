@@ -7,7 +7,7 @@ x-api-key: 4aeae09cc528705d06f0aed5f266f6af7f15b305fc85d610c4f95804dcdb7a388ddee
 
 {
     "name": "Shop Nia",
-    "email": "shopnia15@gmail.com",
+    "email": "shopnia@gmail.com",
     "password": "abc123"
 }
 
@@ -17,6 +17,13 @@ Content-Type: application/json
 x-api-key: 4aeae09cc528705d06f0aed5f266f6af7f15b305fc85d610c4f95804dcdb7a388ddeef46b7db9db40c1577b483db553283fad2854593a69d90dc8874cb7ac74c
 
 {
-    "email": "shopnia15@gmail.com",
+    "email": "shopnia@gmail.com",
     "password": "abc123"
 }
+
+###logout
+POST {{url_dev}}/shop/logout
+Content-Type: application/json
+x-api-key: 4aeae09cc528705d06f0aed5f266f6af7f15b305fc85d610c4f95804dcdb7a388ddeef46b7db9db40c1577b483db553283fad2854593a69d90dc8874cb7ac74c
+x-client-id: 6425981f51da1a2afd516ca9
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDI1OTgxZjUxZGExYTJhZmQ1MTZjYTkiLCJlbWFpbCI6InNob3BuaWFAZ21haWwuY29tIiwiaWF0IjoxNjgwNjgxNzA2LCJleHAiOjE2ODA4NTQ1MDZ9.11Uea2Y1KLIZDfhxKPHNEgW3uwHldPozGX70HWHUKQ8

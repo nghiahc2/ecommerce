@@ -19,6 +19,11 @@ const RoleShop = {
 };
 
 class AccessService {
+  static logout = async (keyStore) => {
+    const { _id } = await KeyTokenService.removeKeyById(keyStore._id);
+    return _id;
+  };
+
   // 1 - check email in dbs
   // 2 - match password
   // 3 - create AT and RT and SVGAElement
